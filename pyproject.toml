@@ -1,0 +1,14 @@
+[project]
+name = "ai-engineering"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-core>=1.6.0",
+    "langchain-google-genai>=4.3.5",
+    "langchain-openai>=1.6.0",
+    "langchain-openrouter>=0.2.8",
+    "langgraph>=1.2.11",
+    "python-dotenv>=1.2.3",
+]
